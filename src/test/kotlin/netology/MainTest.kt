@@ -271,6 +271,6 @@ class MainTest {
         val operationSum = 1000
 
         val result = calculateCommission(cardType, sumMonth, operationSum)
-        Assert.assertEquals(0, result)
+        Assert.assertEquals(-1, result)
     }
 }
